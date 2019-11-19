@@ -1,0 +1,22 @@
+{
+    "name": "ashriya/coupon",
+    "description": "A powerfull package for coupons",
+    "authors": [
+        {
+            "name": "Gagandeep",
+            "email": "gagandeepgoyal@intersoftprofessional.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+            "psr-4": {
+                "Ashriya\\Coupon\\": "src/"
+            }
+        },
+    "autoload-dev": {
+            "psr-4": {
+                "Ashriya\\Coupon\\": "packages/Ashriya/Coupon/src"
+                
+            }
+        }
+}
