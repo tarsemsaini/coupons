@@ -24,9 +24,9 @@ Step 3  Run the migration php artisan migrate
 
 
 
-To create a Add Coupon link  <li> item in menu use  {{route('coupon.index')}}
+To create a Add Coupon link  "<li>" item in menu use  {{route('coupon.index')}}
 #### 
-To Create a List Coupon a <li> item in menu use  {{route('coupon.create')}}
+To Create a List Coupon a "<li>" item in menu use  {{route('coupon.create')}}
 
 ####
 
