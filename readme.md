@@ -11,13 +11,9 @@ Step 1 composer require ashriya/coupon
 Step 1 Need to add our new service provider in our root config/app.php inside the providers array
 ####
 
-// config/app.php
-        'providers' => [
-         ...,
-            App\Providers\RouteServiceProvider::class,
-            // Our new package class
-             Ashriya\Coupon\CouponServiceProvider::class,
-        ],
+Ashriya\Coupon\CouponServiceProvider::class
+
+####
 
 Step 3  Run the migration php artisan migrate
 ####
