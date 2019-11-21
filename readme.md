@@ -8,7 +8,8 @@ This Package is used to add coupon functionality in Laravel , This will provide 
 
 Step 1 composer require ashriya/coupon
 ####
-Step 1 Need to add our new service provider in our root config/app.php inside the providers array
+
+Step 2 Need to add our new service provider in our root config/app.php inside the providers array
 ####
 
 Ashriya\Coupon\CouponServiceProvider::class
